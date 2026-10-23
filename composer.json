@@ -1,0 +1,19 @@
+{
+  "name": "seolyticize/site",
+  "description": "Seolyticize on your PHP site: the analytics tag, the IndexNow key file, deploy notification and server-side events.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://seolyticize.com",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Seolyticize\\": "src/"
+    }
+  },
+  "support": {
+    "docs": "https://seolyticize.com/docs/site-kits",
+    "source": "https://github.com/Seolyticize/site-php"
+  }
+}
