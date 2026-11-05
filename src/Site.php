@@ -32,7 +32,7 @@ final class Site
         if (!empty($options['track'])) {
             $attributes[] = sprintf('data-track="%s"', self::escape(implode(' ', $options['track'])));
         }
-        $attributes[] = sprintf('src="%s/a.js"', self::escape($base));
+        $attributes[] = sprintf('src="%s/a.js?v=2"', self::escape($base));
         return '<script ' . implode(' ', $attributes) . '></script>';
     }
 
